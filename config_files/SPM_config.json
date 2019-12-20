@@ -1,0 +1,12 @@
+{
+    "dih_trained_model": "trained_models/DIH/SPM3S/spm_model_it_00017300.pm",
+    "panoptic_trained_model": "trained_models/PANOPTIC/SPM3S/spm_model_it_00021200.pm",
+    "model_alias": "SPM-3S",
+    "model_params": { "n_stages": 3,
+                     "input_channels":1,
+                    "feat_chann_width":64,
+                    "cascade_type": "squeezenet_cascade",
+                    "feat_extractor_type": "squeeze_net",
+                    "n_limbs":32,
+                    "n_parts":18}
+}

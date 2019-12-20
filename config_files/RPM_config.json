@@ -1,0 +1,12 @@
+{
+    "dih_trained_model": "trained_models/DIH/RPM3S/rpm_model_it_00017300.pm",
+    "panoptic_trained_model": "trained_models/PANOPTIC/RPM3S/rpm_model_it_00021200.pm",
+    "model_alias": "RPM-3S",
+    "model_params": { "n_stages": 3,
+                     "input_channels":1,
+                    "feat_chann_width":64,
+                    "cascade_type": "rpm_cascade",
+                    "feat_extractor_type": "rpm_feats",
+                    "n_limbs":32,
+                    "n_parts":18}
+}

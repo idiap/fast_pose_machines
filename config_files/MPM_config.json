@@ -1,0 +1,12 @@
+{
+    "dih_trained_model": "trained_models/DIH/MPM4S/mpm_model_it_00014200.pm",
+    "panoptic_trained_model": "trained_models/PANOPTIC/MPM4S/mpm_model_it_00021200.pm",
+    "model_alias": "MPM-4S",
+    "model_params": { "n_stages": 4,
+                     "input_channels":1,
+                    "feat_chann_width":64,
+                    "cascade_type": "mobilenet_cascade",
+                    "feat_extractor_type": "mobile_net",
+                    "n_limbs":32,
+                    "n_parts":18}
+}
